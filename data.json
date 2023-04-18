@@ -1,0 +1,71 @@
+{
+  "users": [
+      {
+          "id": 1,
+          "cnic": "1234567890123",
+          "mobile_number": "03001234567"
+      },
+      {
+          "id": 2,
+          "cnic": "2345678901234",
+          "mobile_number": "03007654321"
+      },
+      {
+          "id": 3,
+          "cnic": "3456789012345",
+          "mobile_number": "03009876543"
+      }
+  ],
+  "attendance": [
+      {
+          "id": 1,
+          "user_id": 1,
+          "exit_time_option": "after_breakfast",
+          "exit_date": "2023-04-18"
+      },
+      {
+          "id": 2,
+          "user_id": 2,
+          "exit_time_option": "after_lunch",
+          "exit_date": "2023-04-19"
+      },
+      {
+          "id": 3,
+          "user_id": 3,
+          "exit_time_option": "after_dinner",
+          "exit_date": "2023-04-20"
+      }
+  ],
+  "slips": [
+    {
+        "id": 1,
+        "user_id": 1,
+        "entry_date": "2023-04-18",
+        "qr_code": "qr_code_1"
+    },
+    {
+        "id": 2,
+        "user_id": 2,
+        "entry_date": "2023-04-19",
+        "qr_code": "qr_code_2"
+    },
+    {
+        "id": 3,
+        "user_id": 3,
+        "entry_date": "2023-04-20",
+        "qr_code": "qr_code_3"
+    }
+],
+"temporary_exits": [
+    {
+        "id": 1,
+        "user_id": 1,
+        "attendance_id": 1
+    },
+    {
+        "id": 2,
+        "user_id": 2,
+        "attendance_id": 2
+    }
+  ]
+}
